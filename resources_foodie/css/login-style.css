@@ -1,0 +1,171 @@
+body,
+html {
+    height: 100%;
+    font-family: 'Coming Soon', cursive;
+    color: white;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row1 {
+    max-width: 450px;
+    margin-left: 200px;
+}
+
+.innerlay {
+    background-image: url(image/hero.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(image/hero.jpg);
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(image/hero.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#overlay {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    opacity: 25;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+
+.logo {
+    margin-left: -33px;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 85px;
+    width: 245px;
+}
+
+.reg {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Coming Soon', cursive;
+}
+
+hr {
+    border: 1.5px solid #e67e22;
+    margin-bottom: 10px;
+    width: 100px;
+    margin-left: 0px;
+}
+
+i {
+    margin-right: 8px;
+}
+
+.para1 a{
+    margin-top: 10px;
+    color: #eb1414;
+}
+
+a:link,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 1px;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+
+}
+
+#email {
+    margin-right: 50px;
+}
+
+#pass {
+    margin-right: 18px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 55%;
+    padding: 5px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #807f7f;
+    outline: none;
+    color: white;
+}
+
+button {
+    color: white;
+    height: 40px;
+    width: 30%;
+    background-color: #e67e22;
+    border: none;
+    padding: 10px 10px;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.loginbtn {
+    margin-left: 139px;
+}
+
+.cancelbtn {
+    width: 30%;
+    padding: 10px 10px;
+    background-color: #989898;
+}
+
+#shadow {
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    height: 50%;
+    padding: 10px;
+    width: 400px;
+}
+
+span.psw {
+    float: right;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}

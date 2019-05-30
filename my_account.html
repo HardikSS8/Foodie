@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Foodie Account</title>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<meta name="description" content="Foodie is a premium food delivery service with the mission to bring affordable and healthy to as many people as possible. ">
+
+	<link rel="stylesheet" type="text/css" href="vendors_foodie/css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="vendors_foodie/css/grid.css"> 
+    <link rel="stylesheet" type="text/css" href="vendors_foodie/css/ionicons.min.css">             
+    <link rel="stylesheet" type="text/css" href="resources_foodie/css/my_account.css">
+    <link rel="stylesheet" type="text/css" href="resources_foodie/css/queries.css">
+	<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+
+</head>
+<body>
+
+	<header>
+		<nav>
+			<div class="row">
+				<ul class="main-nav">
+			    
+			        <li><a href="index.html"><i class="fas fa-home fa-lg tooltip"><span class="tooltiptext">HOME</span></i></a></li>
+			        <li><a href="index.html#features"><i class="fas fa-truck fa-lg tooltip"><span class="tooltiptext">HOME DELIVERY</span></i></a></li>
+			        <li><a href="index.html#works"><i class="fas fa-tasks fa-lg tooltip"><span class="tooltiptext">HOW IT WORKS</span></i></a></li>
+			        <li><a href="index.html#cities"><i class="fas fa-hotel tooltip"><span class="tooltiptext">CITIES</span></i></a></li>
+			        <li><a href="cart.html"><i class="fas fa-cart-arrow-down fa-lg tooltip"><span class="tooltiptext">FOOD CART</span></i></a></li>
+		           <li><a href="#"><i class="fas fa-cog fa-lg tooltip"><span class="tooltiptext">My Account</span></i></a></li>
+		            <li><a href="sign_up_form.html"><i class="fas fa-sign-out-alt fa-lg tooltip"><span class="tooltiptext">LOGOUT</span></i></a></li>
+		        </ul>
+		        <hr class="line-style">
+		        <div class="row">
+		        	<a href="index.html"><img src="resources_foodie/img/FOODIE-logo-1.png" class="logo"></a>
+		        </div> 
+		    </div>
+			</nav>
+
+
+			<div class="row">
+				<i class="fas fa-arrow-circle-down" style="margin-left: 48.5%; color: #22e65e; margin-bottom: 8px; font-size: 30px"></i>
+			</div>
+
+			<div class="main_account" id="account">
+				<div class="left_column">
+						<ul class="vertical_nav_bar">
+							<li><img src="resources_foodie/img/profile1.jpg"></li>
+							<li><a href="#" onclick="show_customer_name()">Hardik Ahir</a></li>
+							<li><a href="#" onclick="show_profile()">Profile Details</a></li>
+							<li><a href="#" onclick="show_change_password()">Change Password</a></li>
+							<li><a href="sign_up_form.html">Logout</a></li>
+						</ul>
+				</div>
+
+				<div class="right_column">
+					<div class="customer_name" id="first" style="display: block;">
+						<h1>Hardik Ahir</h1>
+					</div>
+
+					<div class="profile" id="second" style="display: none;">
+						<h4>Profile Details -></h4>
+						<div class="basic_details">
+							<div class="a">Name : Hardik Ahir</div>
+							<div class="b">Email : hsshardiksisodiya0@gmail.com </div>
+							<div class="c">Mobile No. : 9081472595</div>
+							<div class="d">Address : 
+								<div class="address">
+								<ul>
+									<li>C-1,</li>
+									<li>5,</li>
+									<li>Sarakari Vasahat</li>
+									<li>Vastrapur</li>
+									<li>Ahmedabad</li>
+									<li>380015.</li>
+								</ul>   
+								</div>
+							</div>
+							<div class="e">Orders :</div>
+						</div>
+					</div>
+
+					<div class="change_password" id="third" style="display: none;">
+						<h4>Change Your Password-></h4>
+						<form action="header_my_account.php" method="POST">
+							<div>Current Password<span style="color:red;">*</span> :<input class="input_box" type="password" name="password" value="" required=""></div>
+							<div>New Password<span style="color:red;">*</span> :<input class="second_input" type="password" name="password" value="" required=""></div>
+							<div>Confirm Password<span style="color:red;">*</span> :<input class="input_box" type="password" name="password" value="" required=""></div>
+
+							<button type="submit">You Sure!</button>
+						</form>
+					</div>
+				</div>
+
+
+				<script type="text/javascript">
+
+				function show_customer_name() {
+					  var p = document.getElementById("first");	
+				      var x = document.getElementById("second");
+				      var y = document.getElementById("third");
+				      if (p.style.display === "none" && x.style.display === "block" && y.style.display === "block") {
+				      	p.style.display = "block"
+				        x.style.display = "none";
+				        y.style.display = "none";
+				      } else {
+				      	p.style.display = "block";
+				      	x.style.display = "none";
+				        y.style.display = "none";
+				      }
+				    }	
+
+				function show_profile() {
+					  var p = document.getElementById("first");	
+				      var x = document.getElementById("second");
+				      var y = document.getElementById("third");
+				      if (p.style.display === "block" && x.style.display === "none" && y.style.display === "block") {
+				      	p.style.display = "none";
+				        x.style.display = "block";
+				        y.style.display = "none";
+				      } else {
+				      	p.style.display = "none";
+				        x.style.display = "block";
+				        y.style.display = "none";
+				      }
+				    }
+
+				function show_change_password() {
+					  var p = document.getElementById("first");
+				      var x = document.getElementById("second");
+				      var y = document.getElementById("third");
+				      if (p.style.display === "block" && x.style.display === "block" && y.style.display === "none") {
+				      	p.style.display = "none";
+				      	x.style.display = "none";
+				        y.style.display = "block";
+				      } else {
+				      	p.style.display = "none";
+				      	x.style.display = "none";
+				        y.style.display = "block";
+				      }
+				    }
+    		</script>
+
+			</div>
+	</header>
+
+
+</body>
+</html>

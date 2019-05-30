@@ -1,0 +1,474 @@
+.row-master {
+    max-width: 1300px;
+}
+
+.top-bar {
+    margin: 0 auto;
+    max-width: 1300px;
+    margin-top: 10px;
+    background-color: #7bff85;
+    margin-bottom: 30px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.logo-black {
+    display: block;
+    height: 90px;
+    width: auto;
+    float: left;
+    margin: -4px 30px;
+}
+
+hr.line-style {
+    overflow: visible;
+    height: 30px;
+    margin-bottom: -30px;
+    border-style: solid;
+    border-color: rgb(198, 64, 116);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.line-style:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: rgb(198, 64, 116);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+h1 {
+    padding-top: 15px;
+    font-size: 35px;
+    font-family: 'Coming Soon', cursive;
+    color: #56bf76;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+h3:after {
+    margin: 0px 0px;
+    display: block;
+    content: " ";
+    width: 12%;
+    height: 1px;
+    background-color: #e67e22;
+}
+
+.main-nav {
+    margin-right: 10px;
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 8px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-left: 2px solid #56bf76;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #56bf76;
+}
+
+input {
+    width: 50px;
+    border: 2px solid #000;
+    border-radius: 8%;
+    margin-bottom: 8px;
+}
+
+.product-title {
+    margin-left: 70px;
+    float: left;
+    width: 42%;
+    color: #000;
+    font-family: 'Coming Soon', cursive;
+}
+
+.product-price {
+    float: left;
+    width: 12%;
+    color: #000;
+    font-family: 'Coming Soon', cursive;
+}
+
+.product-quantity {
+    float: left;
+    width: 10%;
+    color: #000;
+    font-family: 'Coming Soon', cursive;
+}
+
+.product-removal {
+    float: left;
+    width: 9%;
+    font-family: 'Coming Soon', cursive;
+}
+
+.product-line-price {
+    float: left;
+    width: 12%;
+    text-align: right;
+    color: #000;
+    font-family: 'Coming Soon', cursive;
+}
+
+.shopping-cart {
+    width: 1300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #de8e482e;
+}
+
+.group:before,
+.shopping-cart:before,
+.column-labels:before,
+.product:before,
+.totals-item:before,
+.group:after,
+.shopping-cart:after,
+.column-labels:after,
+.product:after,
+.totals-item:after {
+    content: '';
+    display: table;
+}
+
+.group:after,
+.shopping-cart:after,
+.column-labels:after,
+.product:after,
+.totals-item:after {
+    clear: both;
+}
+
+.group,
+.shopping-cart,
+.column-labels,
+.product,
+.totals-item {
+    zoom: 1;
+}
+
+body {
+    padding: 0px 30px 30px 20px;
+    font-family: 'Coming Soon', cursive;
+    font-weight: 200;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+label {
+    color: #aaa;
+}
+
+.column-labels label {
+    font-size: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #c9c9c9;
+}
+
+.column-labels .product-image,
+.column-labels .product-details,
+.column-labels .product-removal {
+    text-indent: -9999px;
+}
+
+.product {
+    font-size: 17px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #acacac;
+}
+
+
+.product .product-details .product-title {
+    margin-right: 20px;
+    font-family: 'Coming Soon', cursive;
+}
+
+.product .product-details .product-description {
+    margin: 5px 20px 5px 0;
+    line-height: 1.4em;
+}
+
+.product .product-quantity input {
+    width: 40px;
+}
+
+.product .remove-product {
+    border: 0;
+    padding: 4px 8px;
+    background-color: #c66;
+    color: #fff;
+    font-family: 'Coming Soon', cursive;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.product .remove-product:hover {
+    background-color: #a44;
+}
+
+.checkout-title {
+    font-family: 'Coming Soon', cursive;
+    font-size: 35px;
+    color: #56bf76;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.totals {
+    float: left;
+}
+
+.totals .totals-item {
+    float: left;
+    margin-left: 80px;
+    clear: both;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+
+.totals .totals-item label {
+    float: left;
+    clear: both;
+    color: #000;
+    width: 60%;
+    font-family: 'Coming Soon', cursive;
+    font-size: 25px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.totals .totals-item .totals-value {
+    float: right;
+    width: 20%;
+    font-family: 'Coming Soon', cursive;
+    color: #000;
+    font-size: 20px;
+    text-align: left;
+}
+
+.totals .totals-item-total {
+    font-family: 'Coming Soon', cursive;
+}
+
+.checkout {
+    margin-bottom: 30px;
+    margin-left: -350px;
+    border: 0;
+    background-color: #6b6;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 3px;
+}
+
+.checkout:hover {
+    background-color: #494;
+}
+
+.section-contact {
+    padding-top: -20px;
+    margin: 0 auto;
+    width: 1300px;
+    margin-top: 20px;
+    height: 360px;
+    background-color: #4e4e4e;
+    border-radius: 10px;
+}
+
+.contact-title {
+    margin-left: 130px;
+    padding-top: 20px;
+    font-weight: 600;
+    color: #56bf76;
+    font-family: 'Coming Soon', cursive;
+    font-size: 30px;
+}
+
+.quick-links-title {
+    padding-top: 20px;
+    color: #56bf76;
+    font-weight: 600;
+    font-family: 'Coming Soon', cursive;
+    font-size: 30px;
+}
+
+.left-contact {
+    margin-right: 20px;
+    float: left;
+    width: 68%;
+}
+
+.left-contact .contact-label {
+    margin-right: -30px;
+    margin-left: 90px;
+    float: left;
+    width: 20%;
+    color: #fff;
+    height: 190px;
+    font-size: 20px;
+    font-family: 'Coming Soon', cursive;
+}
+
+.left-contact .contact-value {
+    float: right;
+    width: 55%;
+    height: 190px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Coming Soon', cursive;
+}
+
+ul {
+    list-style: none;
+}
+
+.right-contact {
+    margin-bottom: 30px;
+    float: left;
+    width: 30%;
+}
+
+.right-contact li a:link,
+.right-contact li a:visited {
+    margin-left: -35px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.right-contact li a:hover,
+.right-contact li a:active {
+    color: rgb(198, 64, 116);
+    font-size: 20px;
+}
+
+.about {
+    margin-top: -90px;
+    font-family: 'Coming Soon', cursive;
+    font-size: 35px;
+    color: rgb(198, 64, 116);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.about:after {
+    margin: 0 auto;
+    display: block;
+    content: " ";
+    width: 30%;
+    height: 1.5px;
+    background-color: #5f5f5f;
+}
+
+hr.style-eight {
+    overflow: visible;
+    /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.style-eight:after {
+    content: "✾ 🏠 ✾";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+@media screen and (max-width: 650px) {
+    .shopping-cart {
+        margin: 0;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+    }
+
+    .column-labels {
+        display: none;
+    }
+
+    .product-details {
+        float: none;
+        margin-bottom: 10px;
+        width: auto;
+    }
+
+    .product-price {
+        clear: both;
+        width: 70px;
+    }
+
+    .product-quantity {
+        width: 100px;
+    }
+
+    .product-quantity input {
+        margin-left: 20px;
+    }
+
+    .product-quantity:before {
+        content: 'x';
+    }
+
+    .product-removal {
+        width: auto;
+    }
+
+    .product-line-price {
+        float: right;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .product-removal {
+        float: left;
+    }
+
+    .product-line-price {
+        float: right;
+        clear: left;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .product .product-line-price:before {
+        content: 'Item Total: ₹';
+    }
+
+    .totals .totals-item label {
+        width: 40%;
+    }
+
+    .totals .totals-item .totals-value {
+        width: 40%;
+    }
+}

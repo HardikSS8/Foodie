@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="resources_foodie/css/sign-in-style.css">
+    <link rel="stylesheet" type="text/css" href="vendors_foodie/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors_foodie/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors_foodie/css/ionicons.min.css">
+
+    <title>Sign Up Form</title>
+
+    <script>
+        function clickAlert() {
+            alert("User added Successfully");
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="innerlay">
+
+    </div>
+
+<div class="row2" id="overlay">
+
+	<form action="sign_up_form.html" method="post">
+	    <div class="container" id="shadow">
+	        <h2 class="reg">Register</h2>
+	        <hr>
+
+	        <i class="fa fa-user icon"></i><label id="name">Enter Name</label>
+	        <input type="text" id="name" name="name" required>
+
+	        <i class="fa fa-envelope icon"></i><label id="name">Enter Email</label>
+	        <input type="text" id="email" name="email" required>
+
+	        <i class="fa fa-phone"></i><label id="mobile">Enter Mobile No.</label>
+	        <input type="text" id="number" name="mobile_no" required>
+
+	        <i class="fa fa-key icon"></i><label id="pass">Enter Password</label>
+	        <input type="password" id="password" name="pass" required>
+
+	        <i class="fa fa-unlock"></i><label id="pass">Confirm Password</label>
+	        <input type="password" id="password" name="pass-repeat" required>
+
+	        <label>
+	            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px; margin-top:8px;"> Remember me
+	        </label>
+
+	        <p>By creating an account you agree to our <a href="#" style="color:#22e65e; text-decoration: none; font-weight: 500; font-size: 20px;">Terms & Privacy.</a></p>
+
+	        <div class="clearfix">
+	            <button type="button" class="cancelbtn"><a href="index.php">Cancel</a></button>
+	            <button type="submit" name="submit_request" value="Sign Up" onsubmit="return validate();" class="signupbtn">Sign Up</button>
+	        </div>
+	        <p class="para">Already have an account? <a href="login_form.html" style="color:rgb(255, 237, 0);">Login here.</a></p>
+	    </div>
+	</form>
+</div>
+
+<script src="resources_foodie/js/sign_up_form.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="resources_foodie/css/login-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendors_foodie/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors_foodie/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors_foodie/css/ionicons.min.css">
+
+    <title>Login Form</title>
+
+    <script>
+        function clickAlert() {
+            alert("Login Successfully!");
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="innerlay">
+
+    </div>
+	
+	<div class="row1" id="overlay">
+
+	<div class="nav">
+		<img src="resources_foodie/img/FOODIE-logo-1.png" class="logo"><br>
+	</div>
+
+	<form action="login_form.html" method="post">
+    	<div class="container" id="shadow">
+        	<h2 class="reg">Login</h2>
+        	<hr>
+
+	        <i class="fa fa-user icon"></i><label id="email"><b>Email</b></label>
+	        <input type="text" name="email" required><br><br>
+
+	        <i class="fa fa-key icon"></i><label id="pass"><b>Password</b></label>
+	        <input type="password" name="pass" required><br><br>
+
+	        <button type="submit" name="submit_request" value="Login" onclick="clickAlert" class="loginbtn"><a>Login</a></button><br>
+	        <br>
+
+	        <button type="button" class="cancelbtn"><a href="index.html">Cancel</a></button>
+	        <span class="psw"><a href="#" class="forgot">Forgot password?</a></span>
+    	</div>
+	</form>
+
+	<p class="para1"><a href="index.html"> Let's Go Order in FOODIE.</a></p>
+
+	</div>
+
+
+	</body>
+</html>
