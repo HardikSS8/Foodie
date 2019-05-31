@@ -214,10 +214,38 @@
 				</div>
 				<div class="product-line-price">0</div>
 			</div>
+			
+			<div class="product">
+				<div class="product-title">Seven Up</div>
+				<div class="product-price">35</div>
+				<div class="product-quantity">
+					<input type="number" value="0" min="0">
+				</div>
+				<div class="product-removal">
+					<button class="remove-product">
+						Remove
+					</button>
+				</div>
+				<div class="product-line-price">0</div>
+			</div>
 
 			<div class="product">
 				<div class="product-title">Frozen Coke</div>
 				<div class="product-price">60</div>
+				<div class="product-quantity">
+					<input type="number" value="0" min="0">
+				</div>
+				<div class="product-removal">
+					<button class="remove-product">
+						Remove
+					</button>
+				</div>
+				<div class="product-line-price">0</div>
+			</div>
+
+            <div class="product">
+				<div class="product-title">Thumbs Up</div>
+				<div class="product-price">75</div>
 				<div class="product-quantity">
 					<input type="number" value="0" min="0">
 				</div>

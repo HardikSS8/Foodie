@@ -17,7 +17,7 @@
                 <ul>
                     <li>hsshardiksisodiya0@gmail.com</li>
                     <li>+91 9081472595</li>
-                    <li>137,<br> Chestnut Avenue,<br> Jersy City,<br> New Jersy</li>
+                    <li>231,<br> Chestnut Avenue,<br> Jersy City,<br> New Jersy</li>
                 </ul>
             </div>
         </div>
