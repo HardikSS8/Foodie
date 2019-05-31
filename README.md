@@ -6,5 +6,3 @@ Languages used : HTML, CSS, PHP, JAVASCRIPT
 Tools used : Brackets, Phpmyadmin database
 
 Current Status : Currently this website lets you select the different plans of meal and gives you total price of your cart for checkout.
-
-Instruction : Cart works better in live preview of brackets.
