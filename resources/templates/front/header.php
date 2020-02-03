@@ -32,8 +32,9 @@ if(isset($_SESSION['customer_email'])) {
         
      </head>
 	
-	<body onload="myFunction()">
-        <div id="loading"></div>
+	<body>
+<!-- 	<body onload="myFunction()"> -->
+<!--         <div id="loading"></div> -->
         
 		<header>
             <nav>
