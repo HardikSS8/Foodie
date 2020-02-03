@@ -152,7 +152,7 @@
                         <div class="plan-box">
                             <div>
                                 <h3>Premium</h3>
-                                <p class="plan-price">54,750 <i class="fa fa-rupee"></i><span>/ month</span></p>
+                                <p class="plan-price">54,750 <i class="fa fa-rupee"></i><span>/ year</span></p>
                                 <p class="plan-price-meal">That's only 150 <i class="fa fa-rupee"></i> per meal</p>
                             </div>
                             <div>
