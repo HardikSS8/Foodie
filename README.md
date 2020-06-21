@@ -1,4 +1,4 @@
-# HardikSS8.github.io
+# Foodie
 Foodie is a premium food delivery service with the mission to bring affordable and healthy to as many people as possible.
 
 Languages used : HTML, CSS, PHP, JAVASCRIPT
