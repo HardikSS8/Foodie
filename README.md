@@ -1,7 +1,7 @@
 # Foodie
 Foodie is a premium food delivery service with the mission to bring affordable and healthy to as many people as possible.
 
-Languages used : HTML, CSS, PHP, JAVASCRIPT
+Languages used : HTML, CSS, PHP, JAVASCRIPT, MySQL
 
 Tools used : Brackets, Phpmyadmin database
 
